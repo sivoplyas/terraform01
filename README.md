@@ -7,6 +7,11 @@
 
 ![2-0 zadanie](https://github.com/user-attachments/assets/d5c05bd2-8145-45e7-be70-cef260819d2c)
 
-4) Выполните код проекта. Найдите в state-файле секретное содержимое созданного ресурса random_password, пришлите в качестве ответа конкретный ключ и его значение.
+3) Выполните код проекта. Найдите в state-файле секретное содержимое созданного ресурса random_password, пришлите в качестве ответа конкретный ключ и его значение.
 
 ![3-0 zadanie](https://github.com/user-attachments/assets/e408fd77-03ff-4385-8188-337dacc1ab63)
+
+4) Раскомментируйте блок кода, примерно расположенный на строчках 29–42 файла main.tf. Выполните команду terraform validate. Объясните, в чём заключаются намеренно допущенные ошибки. Исправьте их.
+
+![4-0 zadanie](https://github.com/user-attachments/assets/088f0912-0438-4a0b-bcdd-38ff0b80f7ed)
+![Скриншот 12-01-2025 224248](https://github.com/user-attachments/assets/ee88ff88-621e-42e3-b77d-27d0da58bdfc)
