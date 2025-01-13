@@ -42,3 +42,7 @@ keep_locally (логическое значение) Если значение t
 
 ![Скриншот 12-01-2025 233526](https://github.com/user-attachments/assets/ac418961-8a58-472b-844c-b6432dabaf36)
 ![Скриншот 12-01-2025 233818](https://github.com/user-attachments/assets/67d97ae1-ddc2-416f-8116-f6315d8f7aae)
+
+# Задание 2
+
+![Скриншот 13-01-2025 170901](https://github.com/user-attachments/assets/1df24008-d522-4a31-b33b-844a503375a2)
