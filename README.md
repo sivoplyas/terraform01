@@ -15,3 +15,24 @@
 
 ![4-0 zadanie](https://github.com/user-attachments/assets/088f0912-0438-4a0b-bcdd-38ff0b80f7ed)
 ![Скриншот 12-01-2025 224248](https://github.com/user-attachments/assets/ee88ff88-621e-42e3-b77d-27d0da58bdfc)
+
+5) Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды docker ps
+
+![Скриншот 13-01-2025 143438](https://github.com/user-attachments/assets/dd48f421-14d0-41b6-9d98-ce79940ae1de)
+![Скриншот 12-01-2025 225145](https://github.com/user-attachments/assets/3f6c1621-75e8-4717-9934-d34517087898)
+
+6) Замените имя docker-контейнера в блоке кода на hello_world. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest". Выполните команду terraform apply -auto-approve. Объясните своими словами, в чём может быть опасность применения ключа -auto-approve. Догадайтесь или нагуглите зачем может пригодиться данный ключ? В качестве ответа дополнительно приложите вывод команды docker ps.
+
+![Скриншот 12-01-2025 232355](https://github.com/user-attachments/assets/8caa0673-6149-4d16-95f0-bc97a04de798)
+
+7) Уничтожьте созданные ресурсы с помощью terraform. Убедитесь, что все ресурсы удалены. Приложите содержимое файла terraform.tfstate.
+
+![Скриншот 12-01-2025 232651](https://github.com/user-attachments/assets/47a2387b-0812-4922-9db2-aeb9a435dd16)
+![Скриншот 12-01-2025 232852](https://github.com/user-attachments/assets/a2ef6303-c7f9-48bf-b5ad-67d4adc020a2)
+
+8) Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker. (ищите в классификаторе resource docker_image )
+
+keep_locally (логическое значение) Если значение true, то изображение Docker не будет удалено при операции destroy. Если значение false, то изображение будет удалено из локального хранилища docker при операции destroy.
+
+![Скриншот 12-01-2025 233526](https://github.com/user-attachments/assets/ac418961-8a58-472b-844c-b6432dabaf36)
+![Скриншот 12-01-2025 233818](https://github.com/user-attachments/assets/67d97ae1-ddc2-416f-8116-f6315d8f7aae)
